@@ -1,17 +1,271 @@
-html, body {
-    padding: 0;
-    margin: 0;
+
+.horizontaal {
+    margin: 10px auto;
+    margin-top: 60px;
+    float: center;
+    position: absolute;
+    top: 0px;
+    right: 40px;
+    padding: right;
+   
 }
 
-body {
-    background: #5d524c;
-    color: #c8c3bf;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    size: 14px;
-    padding-left: 10%;
+
+.horizontaal li {
+    display: inline-block;
+    color: aliceblue;
+    text-align: center;
+    margin: 0px 40px;
 }
 
-#vogel {
-    width: 225px;
-    height: auto;
+.index{
+    color: rgb(255, 255, 255);
+   text-decoration: none;
 }
+
+.tekst{
+background-color: rgb(109, 112, 125);
+background-image: url(../images/Glazenwasser-Blinck-binnen.jpg);
+padding-top: 150px;
+padding-bottom: 470px;
+background-blend-mode: multiply;
+background-size: cover;
+color: rgb(246, 240, 240);
+text-align: center;
+font-size: 30px;
+}
+.betrouwbaar{
+    background-color:  rgb(127, 191, 255);
+    padding: 5px;
+}
+
+.betrouwbaar li {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.726);
+    text-align: center;
+    margin: 0px  150px;
+    padding: 5px;
+}
+.img {
+    float: right;
+    width: 33%;
+    border: solid 7px #000000;
+    
+}
+.plaatje{
+    
+    width: 90;
+    margin-top: 70px;
+  padding-right: 320px;
+}
+
+.footer {
+       width: 100%;
+      background-color: rgb(127, 191, 255);
+      color: rgb(255, 255, 255);
+      text-align: center;
+      height: 220px;
+    margin-top: 30%;
+}
+
+
+a{
+    font-family: 'Raleway', sans-serif;
+}
+a:hover {
+  color: rgb(127, 191, 255);
+  }
+.indexhtt{
+    color: black;
+    text-decoration: none;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #000000; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #d1d6d4;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #a1a1a1;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: rgb(127, 191, 255);
+    padding: 20px;
+    margin-top:20px ;
+  }
+  
+  .ffooter {
+      
+    width: 100%;
+    background-color: rgb(127, 191, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 220px;
+    margin-top: 9%;
+  }
+.indexx{
+  color: white;
+}
+.indexht{
+  color: black;
+}
+.glimmend{
+  width: 600px;
+  height: 200px;
+  border: 10px solid rgba(0, 0, 0, 0.599);
+  border-radius: 5px;
+  padding: 40px 40px 20px 40px;
+  margin: 100px 0px 0px 280px;
+  background-color: #939594;
+}
+.box2{
+  width: 300px;
+  height: 400px;
+  border: 10px solid rgba(0, 0, 0, 0.599);
+  border-radius: 5px;
+  padding: 40px 40px 20px 40px;
+  margin: 100px 0px 0px 500px;
+  background-color: #939594;
+  float: left;
+}
+  .img2 {
+    width: 100%;
+    border: solid 7px #000000;
+}
+  .fffooter {
+    width: 100%;
+    background-color: rgb(127, 191, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 220px;
+    margin-top: 40%;
+  }
+  .boxy{
+    width: 300px;
+    height: 400px;
+    border: 10px solid rgba(0, 0, 0, 0.599);
+    border-radius: 5px;
+    padding: 40px 40px 20px 40px;
+    margin: 100px 500px 0px 0px;
+    background-color: #939594;
+    float: right;
+   }
+
+   .boxyy{
+    width: 300px;
+    height: 400px;
+    border: 10px solid rgba(0, 0, 0, 0.599);
+    border-radius: 5px;
+    padding: 40px 40px 20px 40px;
+    margin: 0px 0px 0px 0px;
+    background-color: #939594;
+    float: right;
+   }
+   .box3{
+    width: 300px;
+    height: 400px;
+    border: 10px solid rgba(0, 0, 0, 0.599);
+    border-radius: 5px;
+    padding: 40px 40px 20px 40px;
+    margin: 0px;
+    background-color: #939594;
+    float: left center;
+  }
+  .foooter {
+    width: 100%;
+    background-color: rgb(127, 191, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 220px;
+    margin-top: 70%;
+  }
+  .boxes{
+    width: 300px;
+    height: 400px;
+    border: 10px solid rgba(0, 0, 0, 0.599);
+    border-radius: 5px;
+    padding: 40px 40px 20px 40px;
+    margin: 100px 0px 0px 500px;
+    background-color: #939594;
+    float: left;
+  }
+  
+ .bods{
+    background-image: url(../images/Foto-06-03-2020-12-20-11-scaled\ \(1\).jpg);
+    background-size: cover;
+    width: 99%;
+    height: 140px;
+    margin-bottom: 1000px;
+ }
+ .box{
+  width: 27%;
+  margin-left:660px ;
+  border-radius: 5px;
+  background-color:  #939594;
+  padding: 20px;
+  text-align: center;
+  color:  rgb(0, 0, 0);
+  border:10px solid rgba(0, 0, 0, 0.599);
+ }
+ .footter {
+  width: 100%;
+  background-color: rgb(127, 191, 255);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 220px;
+  margin-top: 14%;
+ }
+ .ooke{
+  background-color: rgb(109, 112, 125);
+  background-image: url(../images/Glazenwasser-Blinck-binnen.jpg);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(246, 240, 240);
+  }
+  .vut{
+    text-align: center;
+  }
+
+  .inter{
+    background-color: rgb(109, 112, 125);
+    background-image: url(../images/Glazenwasser-Blinck-binnen.jpg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(246, 240, 240);
+    
+    }
+    
+    .horizontaall {
+     position: absolute; 
+    margin-top:0px;
+  }
+  
+  
+  .box4{
+    width: 27%;
+    margin-left:660px ;
+    border-radius: 5px;
+    background-color:  #939594;
+    padding: 20px;
+    text-align: center;
+    color:  rgb(255, 255, 255);
+    border:10px solid rgba(0, 0, 0, 0.599);
+   }
